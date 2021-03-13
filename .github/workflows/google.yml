@@ -18,7 +18,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: ci-test-autopilot-cluster-1
   GKE_ZONE: europe-west1
-  DEPLOYMENT_NAME: ci-test-deploy
+  DEPLOYMENT_NAME: ci-test
   IMAGE: ci-test
 
 jobs:
