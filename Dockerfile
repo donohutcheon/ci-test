@@ -17,4 +17,4 @@ COPY --from=builder /go/src/static /app/static
 # Install
 ENV HOME /app
 
-CMD ["./beanstalk"]
+CMD ["./ci-test"]
